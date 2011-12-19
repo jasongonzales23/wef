@@ -1,0 +1,480 @@
+/* HTML5 ✰ Boilerplate
+ * ==|== normalize ==========================================================
+ */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+audio:not([controls]) { display: none; }
+[hidden] { display: none; }
+
+html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+body { margin: 0; font-size: 13px; line-height: 1.231; }
+body, button, input, select, textarea { font-family: sans-serif; color: #222; }
+
+::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
+::selection { background: #fe57a1; color: #fff; text-shadow: none; }
+
+a { color: #00e; }
+a:visited { color: #551a8b; }
+a:hover { color: #06e; }
+a:focus { outline: thin dotted; }
+a:hover, a:active { outline: 0; }
+
+abbr[title] { border-bottom: 1px dotted; }
+b, strong { font-weight: bold; }
+blockquote { margin: 1em 40px; }
+dfn { font-style: italic; }
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+ins { background: #ff9; color: #000; text-decoration: none; }
+mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
+pre, code, kbd, samp { font-family: monospace, monospace; _font-family: 'courier new', monospace; font-size: 1em; }
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
+q { quotes: none; }
+q:before, q:after { content: ""; content: none; }
+small { font-size: 85%; }
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
+dd { margin: 0 0 0 40px; }
+nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
+img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+svg:not(:root) { overflow: hidden; }
+figure { margin: 0; }
+
+form { margin: 0; }
+fieldset { border: 0; margin: 0; padding: 0; }
+label { cursor: pointer; }
+legend { border: 0; *margin-left: -7px; padding: 0; }
+button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle; }
+button, input { line-height: normal; *overflow: visible; }
+table button, table input { *overflow: auto; }
+button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; }
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; }
+input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+textarea { overflow: auto; vertical-align: top; resize: vertical; }
+input:valid, textarea:valid {  }
+input:invalid, textarea:invalid { background-color: #f0dddd; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+td { vertical-align: top; }
+
+
+/* ==|== primary styles =====================================================
+   Author: Jason Gonzales
+   ========================================================================== */
+body {
+    background: #bfbfbf;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#container {
+}
+
+.row {
+    width:1026px;
+    margin:0 auto;
+    overflow:hidden;
+}
+
+.align-left {
+    float:left;
+}
+
+.align-right {
+    float:right;
+}
+
+header {
+    overflow:auto;
+    height:127px;
+    background:#000;
+
+}
+
+.font8 {
+    font-size:8px
+}
+
+.font9 {
+    font-size:9px
+}
+
+.font10 {
+    font-size:10px
+}
+
+.font11 {
+    font-size:11px
+}
+
+.marginTop10 {
+    margin-top:10px
+}
+.marginTop20 {
+    margin-top:20px
+}
+.marginTop30 {
+    margin-top:30px
+}
+.marginTop40 {
+    margin-top:40px
+}
+.marginTop50 {
+    margin-top:50px
+}
+.marginTop60 {
+    margin-top:60px
+}
+.marginTop70 {
+    margin-top:70px
+}
+.marginTop80 {
+    margin-top:80px
+}
+.marginTop90 {
+    margin-top:90px
+}
+.marginTop100 {
+    margin-top:100px
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Georgia', georgia, serif;
+}
+
+header h1 { 
+    float:left;
+    margin:0;
+    padding:0 0 0 40px;
+}
+
+.nav, .secondary-nav, .footer-nav, .footer-info, .social {
+    list-style:none;
+}
+
+.footer-nav, .footer-info, .social {
+    float: left;
+    clear: left;
+    margin: 0 16px;
+}
+
+.nav {
+    margin:85px 0 0 0;
+}
+
+.secondary-nav {
+    float: left;
+    margin: -100px 0 0 488px;
+}
+
+.nav a {
+    color:#00a6ca;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:17px;
+}
+
+.secondary-nav a {
+    font-size:12px;
+    color:#fff;
+    text-decoration:none;
+}
+
+.footer-nav a, .footer-info {
+    font-size:12px;
+    color:#808080;
+    text-decoration:none;
+}
+
+.secondary-nav a:hover, .footer-nav a:hover {
+    color:#C1C1C1;
+    text-decoration:underline;
+}
+
+.nav li ul {
+    display:none;
+}
+
+.nav li:hover ul {
+    display:block;
+    position: absolute;
+    border-bottom:1px solid #404040;
+    background: #333;
+    list-style: none;
+    padding:0;
+    margin:4px 0 0 -10px;
+}
+
+.nav li ul li a {
+    text-transform:none;
+    font-size:11px;
+    border-bottom:1px solid #404040;
+}
+
+.nav > li, .secondary-nav li {
+    float:left;
+    margin: 0;
+    padding: 4px 10px;
+}
+
+.social, .footer-nav, .footer-info {
+    margin:0 0 5px 0;
+}
+
+.social li, .footer-nav li, .footer-info li {
+    float:left;
+    margin: 0;
+    padding: 0px 10px;
+}
+
+.social a {
+    width:35px;
+    height:36px;
+    display:block;
+}
+
+.facebook {
+    background: url(../img/social-sprite.png) 0 -39px;
+}
+
+.facebook:hover {
+    background: url(../img/social-sprite.png) 0 -1px;
+}
+
+.linkedIn {
+    background: url(../img/social-sprite.png) -41px -39px;
+}
+
+.linkedIn:hover {
+    background: url(../img/social-sprite.png) -41px -1px;
+}
+
+.youtube {
+    background: url(../img/social-sprite.png) -81px -39px;
+}
+
+.youtube:hover {
+    background: url(../img/social-sprite.png) -81px -1px;
+}
+
+.flickr {
+    background: url(../img/social-sprite.png) -120px -39px;
+}
+
+.flickr:hover {
+    background: url(../img/social-sprite.png) -120px -1px;
+}
+
+.nav li {
+    margin: 0 10px;
+}
+
+.nav .selected, .nav .ancestor, .nav li:hover {
+    background:#00a6ca;
+}
+
+.nav .selected a, .nav li:hover a, .nav .ancestor a {
+    color:#fff;
+}
+
+.secondary-nav .language .langs {
+    display:none;
+}
+
+.secondary-nav .language:hover {
+    text-decoration:none;
+
+}
+
+.secondary-nav .language:hover .langs {
+    display: block;
+    position: absolute;
+    border-bottom:1px solid #404040;
+    background: #333;
+    /*margin-left: -15px;*/ /*in case they want me top pull it left*/
+}
+
+.nav li ul li  {
+    margin:0;
+}
+
+.secondary-nav .language .langs a, .nav li ul li a {
+    display:block;
+    padding: 8px 20px;
+    border-bottom:1px solid #404040;
+}
+
+.nav li ul li a {
+   background:url(../img/gtArrow.png) no-repeat 10px 15px;
+   padding:14px 24px;
+}
+
+.secondary-nav .language .langs a.current,
+.secondary-nav .language .langs a:hover,
+.tertiaryNav ul li:hover,
+.tertiaryNav ul li:hover a,
+.tertiaryNav ul li.selected,
+.tertiaryNav ul li.selected a{
+    background: #00A6CA;
+    color:#fff;
+}
+
+.breadcrumbs ul {
+    list-style:none;
+    padding:0;
+}
+
+.breadcrumbs ul li {
+    display:inline-block;
+    font-size:14px;
+}
+
+.breadcrumbs ul li a {
+    color:#00a6ca;
+}
+
+.banner, .breadcrumbs {
+    margin: 0 auto;
+    width: 937px;
+    overflow: hidden;
+}
+
+.tertiaryNav {
+    margin:0 0 0 44px;
+    padding:13px;
+    width:252px;
+    background:#e4e4e4;
+    border:1px solid #d6d6d6;
+    float:left;
+}
+
+.tertiaryNav ul {
+    list-style:none;
+    padding:0;
+}
+
+.tertiaryNav ul li {
+    font-size:20px;
+    padding:3px;
+}
+
+.tertiaryNav ul li a {
+    text-decoration:none;
+    color:#333;
+}
+
+.product-page .article {
+    float: right;
+    width: 631px;
+    margin: 0 44px 0 0;
+}
+
+footer {
+    overflow:auto;
+    background:#000;
+    padding:10px 0;
+}
+
+.enpro-logo {
+  float:right;
+  margin: -25px 0 0 0;
+}
+
+#main .row {
+    background:#fff;
+    border-left:1px solid #868686;
+    border-right:1px solid #868686;
+    padding: 28px 0;
+}
+
+.slideshow {
+    margin:0 0 56px 23px;
+}
+
+.visualNav {
+    margin:0 0 189px 47px;
+}
+
+/*
+    ColorBox Core Style:
+    The following CSS is consistent between example themes and should not be altered.
+*/
+#colorbox, #cboxOverlay, #cboxWrapper{position:absolute; top:0; left:0; z-index:9999; overflow:hidden;}
+#cboxOverlay{position:fixed; width:100%; height:100%;}
+#cboxMiddleLeft, #cboxBottomLeft{clear:left;}
+#cboxContent{position:relative;}
+#cboxLoadedContent{overflow:auto;}
+#cboxTitle{margin:0;}
+#cboxLoadingOverlay, #cboxLoadingGraphic{position:absolute; top:0; left:0; width:100%;}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{cursor:pointer;}
+.cboxPhoto{float:left; margin:auto; border:0; display:block;}
+.cboxIframe{width:100%; height:100%; display:block; border:0;}
+
+/* 
+    User Style:
+    Change the following styles to modify the appearance of ColorBox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+#cboxOverlay{background:#000;}
+#colorbox{}
+    #cboxContent{margin-top:20px;}
+        .cboxIframe{background:#fff;}
+        #cboxError{padding:50px; border:1px solid #ccc;}
+        #cboxLoadedContent{border:5px solid #000; background:#fff;}
+        #cboxTitle{position:absolute; top:-20px; left:0; color:#ccc;}
+        #cboxCurrent{position:absolute; top:-20px; right:0px; color:#ccc;}
+        #cboxSlideshow{position:absolute; top:-20px; right:90px; color:#fff;}
+        #cboxPrevious{position:absolute; top:50%; left:5px; margin-top:-32px; background:url(../img/controls.png) no-repeat top left; width:28px; height:65px; text-indent:-9999px;}
+        #cboxPrevious:hover{background-position:bottom left;}
+        #cboxNext{position:absolute; top:50%; right:5px; margin-top:-32px; background:url(../img/controls.png) no-repeat top right; width:28px; height:65px; text-indent:-9999px;}
+        #cboxNext:hover{background-position:bottom right;}
+        #cboxLoadingOverlay{background:#000;}
+        #cboxLoadingGraphic{background:url(../img/loading.gif) no-repeat center center;}
+        #cboxClose{position:absolute; top:5px; right:5px; display:block; background:url(../img/controls.png) no-repeat top center; width:38px; height:19px; text-indent:-9999px;}
+        #cboxClose:hover{background-position:bottom center;}
+
+
+/* ==|== non-semantic helper classes ======================================== */
+.ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; }
+.ir br { display: none; }
+.hidden { display: none !important; visibility: hidden; }
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+.invisible { visibility: hidden; }
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+
+/* ==|== media queries ====================================================== */
+
+@media only screen and (min-width: 480px) {
+
+
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+
+
+/* ==|== print styles ======================================================= */
+ 
+@media print {
+  * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } 
+  a, a:visited { text-decoration: underline; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; } 
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  thead { display: table-header-group; }
+  tr, img { page-break-inside: avoid; }
+  img { max-width: 100% !important; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3 { page-break-after: avoid; }
+}

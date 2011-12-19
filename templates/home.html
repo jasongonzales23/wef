@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% load cms_tags %}
+
+{% block base_content %}
+    <div class="slideshow">
+	{% placeholder home_slideShow %}
+    </div>
+    <div class="visualNav">
+	{% placeholder home_content %}
+    </div>
+{% endblock %}
