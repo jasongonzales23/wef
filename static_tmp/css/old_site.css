@@ -1,0 +1,578 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	font: 0.8125em "Lucida Grande",Verdana,sans-serif;
+	background: url(/images/bkg_bodybar.gif) 0 0 repeat-x;
+	color: #333;
+	line-height: 1.5em;
+}
+
+a
+{
+	text-decoration: none;
+	color: #5959d9;
+	border-bottom: 1px solid #c7c7c7;
+}
+
+a:hover
+{
+	color: #282882;
+	border-color: #8d8d8d;
+}
+
+p
+{
+	margin: 0 0 15px 0;
+}
+
+ul, ol
+{
+	margin: 0 0 15px 25px;
+}
+
+li
+{
+	margin: 8px 0;
+}
+
+h1
+{
+	font: bold 2em Georgia,serif;
+	color: #a50000;
+	margin: 10px 0 20px 0;
+}
+
+h2
+{
+	margin: 25px 0 10px 0;
+	font-size: 1.5em;
+	line-height: 1.3em;
+	color: #737486;
+	clear: both;
+}
+
+.fd h2
+{
+	margin-bottom: 25px;
+}
+
+#main
+{
+	width: 885px;
+	margin: 0;
+	text-align: left;
+}
+
+#content
+{
+	float: right;
+	width: 665px;
+	padding: 0 10px 40px 10px;
+	position: relative;
+}
+
+#sidebar
+{
+	float: left;
+	width: 175px;
+	margin: 25px 0 20px 0;
+}
+
+#header
+{
+	margin: 45px 0 10px 0;
+	position: relative;
+	padding: 55px 0 0 200px;
+	width: 685px;
+}
+
+#header ul
+{
+	list-style-type: none;
+	background: url(/images/bkg_menuBtm2.jpg) -48px 37px repeat-x;
+	padding: 0 0 10px 10px;
+	margin: 0;
+	font: bold 1.1em Georgia,serif;
+}
+
+#header li
+{
+	float: left;
+	margin: 0 30px 0 0;
+}
+
+#header li a
+{
+	display: block;
+	border: 0;
+	padding: 5px 0 0 0;
+	height: 43px;
+	float: left;
+	outline: none;
+	color: #5959d9;
+}
+
+#header li a:hover
+{
+	background: url(/images/menu_arrow.gif) center bottom no-repeat;
+}
+
+#header li .on
+{
+	background: url(/images/menu_arrow.gif) center bottom no-repeat;
+	color: #000;
+}
+
+#logo
+{
+	position: absolute;
+	top: 0;
+	left: 60px;
+}
+
+#logo a
+{
+	width: 121px;
+	height: 121px;
+	display: block;
+	background: url(/images/wef_logo.gif) 0 0 no-repeat;
+	border: 0;
+	text-indent: -5000px;
+	outline: none;
+}
+
+#footer
+{
+	clear: both;
+	padding: 0 0 25px 0;
+	padding-left: 210px;
+	background: url(/images/wef_logo_footer.gif) 78px 15px no-repeat;
+}
+
+#footer ul
+{
+	border-top: 1px solid #cfcfcf;
+	list-style-type: none;
+	margin: 0 0 10px 0;
+}
+
+#footer li
+{
+	float: left;
+	padding: 10px 15px 12px 0;
+	margin: 5px 5px 0 0;
+	line-height: 1em;
+	background: url(/images/slash.gif) right center no-repeat;
+}
+
+#footer p
+{
+	font-size: .85em;
+	margin: 0;
+	line-height: 1.4em;
+	color: #666;
+}
+
+#footer #copyright
+{
+	margin-top: 15px;
+}
+
+#footer #site
+{
+	color:#e4e4eb;
+}
+
+#footer #site a
+{
+	color:#e4e4eb;
+	text-decoration:underline;
+}
+
+#footer #site a:hover
+{
+	color:#c8c9d2;
+}
+
+
+#footer a
+{
+	border: 0;
+}
+
+.trustees
+{
+	background: url(/images/bkg_trustees.gif) 158px 0 repeat-y;
+	font-family: Georgia,serif;
+	margin: 0;
+}
+
+.trustees li
+{
+	float: left;
+	width: 155px;
+	display: inline;
+	margin: 5px;
+}
+
+.bio
+{
+	position: relative;
+	padding-left: 160px;
+	width: 520px;
+}
+
+.bio img
+{
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	padding: 5px;
+	border: 1px solid #b2b2b2;
+	background-color: #cfcfcf;
+}
+
+#sidebar h2
+{
+	font: 1.3em Georgia,serif;
+	border-bottom: 1px solid #d8d8d8;
+	margin: 0;
+	padding: 8px 10px;
+	color: #a50000;
+	font-style: italic;
+	margin-top: 30px;
+}
+
+#sidebar ul
+{
+	font-size: .85em;
+	list-style-type: none;
+	text-align: right;
+	margin: 0;
+}
+
+#sidebar li
+{
+	margin: 3px 0;
+}
+
+.events #sidebar ul
+{
+	text-align: left;
+}
+
+.events #sidebar li
+{
+	border-bottom: 1px solid #d6d6d6;
+	padding: 8px 10px;
+	margin: 0;
+}
+
+.events #sidebar li:hover
+{
+	background-color: #e4effe;
+}
+
+.events #sidebar h3
+{
+	font: bold 1.2em Georgia,serif;
+	margin: 0 0 4px 0;
+}
+
+.events #sidebar p
+{
+	margin: 0;
+	line-height: 1.3em;
+	color: #999;
+}
+
+.promo
+{
+	padding: 10px 10px 10px 0;
+	text-align: left;
+	border: 1px solid #e2e2e2;
+	margin: 30px 0;
+}
+
+.promo a
+{
+	display: block;
+	outline: none;
+}
+
+.promo h3
+{
+	margin: 0;
+	font: normal 1.4em Georgia,serif;
+}
+
+.promo h3 a
+{
+	color: #fff;
+	padding: 10px;
+	background-color: #737486;
+}
+
+.promo h3 a:hover
+{
+	background-color: #333;
+	color: #fff;
+}
+
+.promo p
+{
+	font-size: .85em;
+	line-height: 1.4em;
+	padding: 5px 10px 7px 10px;
+	border-right: 1px solid #aaa;
+	border-bottom: 1px solid #b3b3b3;
+	background-color: #d3d3d3;
+	margin: 0;
+}
+
+.promo .cta
+{
+	padding: 0;
+}
+
+.promo .cta a
+{
+	padding: 5px 10px 7px 10px;
+}
+
+.promo .cta a:hover
+{
+	background-color: #5959d9;
+	color: #fff;
+}
+
+#calNav h3
+{
+	font: bold 1.6em Georgia,serif;
+	color: #666;
+	width: 220px;
+	text-align: center;
+	float: left;
+}
+
+#calNav
+{
+	width: 300px;
+	margin: 0 auto 20px auto;
+}
+
+#calNav a
+{
+	float: left;
+	border: 1px solid #ccc;
+	font-size: 24px;
+	font-weight: bold;
+	width: 38px;
+	background-color: #e1e1e1;
+	text-align: center;
+}
+
+#calNav a:hover
+{
+	background-color: #5959d9;
+	color: #fff;
+}
+
+#calendar
+{
+	text-align: center;
+	margin-top: 5px;
+}
+
+#calendar table
+{
+	border-collapse: collapse;
+	clear: both;
+	text-align: left;
+}
+
+#calendar td
+{
+	width: 94px;
+	border: 1px solid #dadada;
+	vertical-align: top;
+	color: #000;
+	overflow: hidden;
+}
+
+#calendar th
+{
+	color: #666;
+	font: normal 1em Georgia,serif;
+	padding-bottom: 4px;
+	font-style: italic;
+	background-color: #fff;
+}
+
+#calendar .number td
+{
+	background-color: #afafaf;
+	padding: 0 2px;
+	width: 90px;
+	font-weight: bold;
+	color: #333;
+}
+
+#calendar .day td
+{
+	height: 94px;
+}
+
+.Sat, .Sun
+{
+	background-color: #f7f7f7;
+}
+
+#calendar caption
+{
+	display: none;
+}
+
+#calendar ul
+{
+	list-style-type: none;
+	margin: 0;
+}
+
+#calendar li
+{
+	margin: 0;
+	line-height: 1.1em;
+	font-size: .9em;
+}
+
+#calendar li a:hover
+{
+	background-color: #e4effe;
+}
+
+#calendar li a
+{
+	border: 0;
+	line-height: 1.2em;
+	display: block;
+	padding: 8px 3px;
+	width: 88px;
+}
+
+#calendar li h4
+{
+	font-size: 1.1em;
+	font-weight: normal;
+}
+
+#calendar li span
+{
+	color: #999;
+	font-size: .85em;
+}
+
+#comments ul
+{
+	list-style-type: none;
+	width: 665px;
+	margin: 20px 0 0 0;
+}
+
+#comments li
+{
+	border-top: 1px solid #c9c9c9;
+	margin: 0;
+	padding: 12px 10px;
+}
+
+#comments li p
+{
+	margin: 8px 0;
+}
+
+#comments form
+{
+	padding-top: 25px;
+	background: url(/images/bkg_menuBtm2.jpg) -48px 0 repeat-x;
+}
+
+#comments form p
+{
+	position: relative;
+	clear: both;
+	padding: 0 0 0 105px;
+	width: 560px;
+}
+
+#comments label
+{
+	position: absolute;
+	top: 2px;
+	left: 0;
+	z-index: 2;
+	text-align: right;
+	width: 90px;
+	font: italic 1em Georgia,serif;
+	color: #a50000;
+}
+
+#comments input
+{
+	width: 200px;
+	border: 1px solid #c9c9c9;
+	padding: 3px;
+}
+
+#comments .button
+{
+	width: auto;
+	margin-right: 20px;
+	font: bold 1em Georgia,serif;
+	padding: 4px;
+	color: #5959d9;
+}
+
+#comments .disabled
+{
+	width: auto;
+	margin-right: 20px;
+	font: bold 1em Georgia,serif;
+	padding: 4px;
+	color: #adadad;
+}
+
+#comments textarea
+{
+	width: 500px;
+	height: 200px;
+	border: 1px solid #c9c9c9;
+	padding: 3px;
+}
+
+.clear
+{
+	overflow: hidden;
+}
+
+* html .clear
+{
+	height: 1%;
+}
+
+.error h3
+{
+	font: normal 2.8em Georgia,serif;
+	margin: 10px 0;
+}
+
+.meta
+{
+	color: #999;
+	font-size: .85em;
+}
